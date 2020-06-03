@@ -14,7 +14,7 @@ TBD
 * Fork and clone the project:
 
 ```
-git clone https://github.com/ReactJSResources/react-webpack-babel.git
+git clone https://github.com/magdic/my-webpack-react
 ```
 
 * Then install the dependencies:
