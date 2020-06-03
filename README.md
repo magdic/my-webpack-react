@@ -4,19 +4,8 @@
 </p>
 
 
-<p align="center">
-  Tired of complicated starters with 200MB of dependencies which are hard to understand and modify? This is for you!
-  This is a simple react application without redux, stylesheets or other set frameworks. It's only meant to get you started and the rest if up to you. Our goal for is to keep things simple and give you the freedom to select your own frameworks to add on top of this one.
-</p>
-
-
-<div class="center">
-  [![Dependency Status](https://img.shields.io/david/ReactJSResources/react-webpack-babel.svg)](https://david-dm.org/dylang/npm-check)
-</div>  
-
-
 ### Demo
-https://murmuring-fjord-36537.herokuapp.com/
+TBD
 
 ### Prerequisites
 * You'll need to have [git](https://git-scm.com/) and [node](https://nodejs.org/en/) installed in your system.
