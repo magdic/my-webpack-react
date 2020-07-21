@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const handlebarsHelpers = require('handlebars-helpers')
 const assembleWebpack = require('assemble-webpack')
+const DashboardPlugin = require("webpack-dashboard/plugin");
 
 const ROOT_DIRECTORY = path.join(__dirname, '..')
 const SRC_DIRECTORY = path.join(ROOT_DIRECTORY, 'src')
@@ -30,7 +31,8 @@ const config = {
     ]),
     new assembleWebpack.AttachedPlugin({
       helpers: [handlebarsHelpers(), './app/helpers/helpers.js']
-    })
+    }),
+    new DashboardPlugin()
   ],
   module: {
     rules: [
